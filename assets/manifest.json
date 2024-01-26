@@ -1,0 +1,71 @@
+{
+    "name": "omega",
+    "short_name": "omega",
+    "display": "standalone",
+    "theme_color": "#282834FF",
+    "background_color": "#0C1624FF",
+    "orientation": "any",
+    "status_bar": "black",
+    "splash": {
+        "640x1136": "/https://i.imgur.com/WnVDOcy.png",
+        "750x1334": "/https://i.imgur.com/WnVDOcy.png",
+        "828x1792": "/https://i.imgur.com/WnVDOcy.png",
+        "1125x2436": "/https://i.imgur.com/WnVDOcy.png",
+        "1242x2208": "/https://i.imgur.com/WnVDOcy.png",
+        "1242x2688": "/https://i.imgur.com/WnVDOcy.png",
+        "1536x2048": "/https://i.imgur.com/WnVDOcy.png",
+        "1668x2224": "/https://i.imgur.com/WnVDOcy.png",
+        "1668x2388": "/https://i.imgur.com/WnVDOcy.png",
+        "2048x2732": "/https://i.imgur.com/WnVDOcy.png"
+    },
+    "icons": [
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "72x72",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "96x96",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "128x128",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "152x152",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "384x384",
+            "purpose": "any"
+        },
+        {
+            "src": "/https://i.imgur.com/WnVDOcy.png",
+            "type": "image\/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ]
+}

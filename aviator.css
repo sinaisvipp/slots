@@ -1,0 +1,150 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    position: center;
+    overflow: hidden;
+}
+#backButton {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#backButton:hover {
+    background-color: darkgreen;
+}
+.block {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(255, 30, 0);
+    position: center;
+    padding: 2px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/aviator.webp');
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+.plane {
+    transition: transform 5s;
+    position: center;
+    bottom: 20px;
+    left: 130px;
+    animation: float 4s infinite alternate;
+}
+
+
+.plane img {
+    width: 150px;
+    height: 150px;
+}
+
+.buttons-container {
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.button {
+    padding: 20px 30px;
+    background-color: #000;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffffff27;
+}
+
+.message {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    animation: blinkingText 1.2s infinite;
+    z-index: 3;
+}
+
+@keyframes blinkingText {
+    0% { color: #0f0; }
+    50% { color: #ff0000; }
+    100% { color: #0f0; }
+}
+
+.exit-text {
+    font-size: 2em;
+    text-align: center;
+    display: none;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.countdown-text {
+    font-size: 1.5em;
+    text-align: center;
+    display: none;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+/* Efeito Matrix */
+.matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.column {
+    position: absolute;
+    top: 0;
+    font-size: 1em;
+    animation: matrixDrop linear infinite;
+}
+
+@keyframes matrixDrop {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100%); }
+}
+
+#iframeElement {
+    position: center;
+    width: 99vw;
+    height: 100vw;
+    min-height: 500px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
